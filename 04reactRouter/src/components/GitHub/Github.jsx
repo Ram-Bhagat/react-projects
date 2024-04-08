@@ -15,10 +15,10 @@ export default function Github() {
       </div>
       <div className="bg-white shadow-md rounded-lg p-6 mb-8">
         <h2 className="text-lg font-semibold mb-4">Followers: {data.followers}</h2>
-        <h2 className="text-lg font-semibold mb-4">Location: {data.location}</h2>
         <h2 className="text-lg font-semibold mb-4">Following: {data.following}</h2>
         <h2 className="text-lg font-semibold mb-4">Public Repositories: {data.public_repos}</h2>
         <h2 className="text-lg font-semibold mb-4">Bio: {data.bio}</h2>
+        <h2 className="text-lg font-semibold mb-4">Location: {data.location}</h2>
       </div>
     </div>
   );
